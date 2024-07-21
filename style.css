@@ -1,0 +1,105 @@
+html {
+    background-color: #f4d04e;
+    font-size: 16px;
+    font-family: Figtree;
+}
+
+*{
+    /* width: 100%;  */
+}
+
+main {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 85%;
+    width:  28.5%;
+
+    border-radius: 5%;
+    border: 1px solid black ;
+    box-shadow: 10px 10px black ;
+    
+
+}
+
+svg {
+    border-radius: 5%;
+    position: relative;
+    left: 1.5em;
+    top: 1.5em;
+}
+
+/* .LandP{
+    
+} */
+ 
+.writingtwo{
+    position: relative;
+    bottom: 1em;
+}
+
+.learning {
+    width: 20%;
+    background-color: #f4d04e;
+    margin-top: 3em;
+    padding: 0.4em;
+    text-align: center;
+    border-radius: 0.3em;
+}
+
+.published {
+    width: 60%;
+    position: relative;
+    bottom: 1em;
+}
+
+p{
+    color: hsl(0, 0%, 42%);
+    font-size: 1em;
+}
+
+h5{
+    font-size: 800;
+}
+
+h5,h6,h3,p {
+    /* padding-left: 2em; */
+    
+}
+
+div + svg {
+    /* display: inline-block; */
+    border-radius: 5%;
+}
+
+.writing {
+    /* display: flex;
+    flex-flow: row wrap;
+    align-items: space-evenly; */
+    padding-left: 2em;
+}
+
+figure{
+    /* background-color: rebeccapurple; */
+    position: relative;
+    bottom: 2em;
+    
+}
+
+img{
+    /* align-self: flex-start; */
+    width: 2em;
+    position:relative;
+    top: 1em;
+    right: 0.5em;
+}
+
+figcaption {
+    position: relative;
+    left: 3em;
+    bottom: 1em;
+    font-size: small;
+    font-weight: 800;
+}
